@@ -66,8 +66,7 @@ public class VarastoTest {
 
         double saatuMaara = varasto.otaVarastosta(2);
 
-        //rikottu tarkoituksella
-        assertEquals(0, saatuMaara, vertailuTarkkuus);
+        assertEquals(2, saatuMaara, vertailuTarkkuus);
     }
 
     @Test
